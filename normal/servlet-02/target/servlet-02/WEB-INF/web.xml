@@ -1,0 +1,76 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <context-param>
+    <param-name>WZ</param-name>
+    <param-value>HERE IS WZ's Time!</param-value>
+  </context-param>
+
+  <servlet>
+    <servlet-name>mzdora</servlet-name>
+    <servlet-class>com.mzdora.HelloServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>mzdora</servlet-name>
+    <url-pattern>/mzdora</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>name</servlet-name>
+    <servlet-class>com.mzdora.GetServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>name</servlet-name>
+    <url-pattern>/name</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>res</servlet-name>
+    <servlet-class>com.mzdora.res</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>res</servlet-name>
+    <url-pattern>/res</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>stream</servlet-name>
+    <servlet-class>com.mzdora.Stream</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>stream</servlet-name>
+    <url-pattern>/stream</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>send</servlet-name>
+    <servlet-class>com.mzdora.send</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>send</servlet-name>
+    <url-pattern>/send</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.mzdora.UserLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>req</servlet-name>
+    <servlet-class>com.mzdora.Request</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>req</servlet-name>
+    <url-pattern>/req</url-pattern>
+  </servlet-mapping>
+
+</web-app>
