@@ -1,0 +1,39 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>cookie</servlet-name>
+    <servlet-class>com.mzdora.cookieApplication</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cookie</servlet-name>
+    <url-pattern>/cookie</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>session</servlet-name>
+    <servlet-class>com.mzdora.sessionApplication</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>session</servlet-name>
+    <url-pattern>/session</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>getsession</servlet-name>
+    <servlet-class>com.mzdora.GetSession</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getsession</servlet-name>
+    <url-pattern>/getsession</url-pattern>
+  </servlet-mapping>
+
+  <session-config>
+    <session-timeout>1</session-timeout>
+  </session-config>
+
+</web-app>
